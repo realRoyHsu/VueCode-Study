@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app"></div>
+</body>
+<script src="./dist/index.js"></script>
+<!-- <script src="./vue.js"></script> -->
+<!-- <script type="module">
+  var vm = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello world',
+      isShow: true
+    },
+    render () {
+      return createElement(
+        'div',
+        {
+          attrs: {
+            'class': 'wrapper'
+          }
+        },
+        [
+          this.isShow
+          ? createElement(
+            'p',
+            {
+              attrs: {
+                'class': 'inner'
+              }
+            },
+            this.message
+          )
+          : createElement(
+            'h1',
+            {
+              attrs: {
+                'class': 'inner'
+              }
+            },
+            'Hello world'
+          )
+        ]
+      )
+    }
+  })
+
+  // test
+  setTimeout(function () {
+    vm.message = 'Hello';
+  }, 1000)
+
+  setTimeout(function () {
+    vm.isShow = false;
+  }, 2000)
+</script> -->
+</html>
